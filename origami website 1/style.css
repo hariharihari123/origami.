@@ -1,0 +1,32 @@
+h1{
+    padding-left:45%;
+    
+color: black;
+background-color: yellow;
+}
+.grid{
+    color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+    position: relative;
+    }
+    .item p{
+    color: lime;
+    font-weight: bold;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 6;
+    }
+    
+    .item:hover p{
+    opacity: 1 ;
+    }
+    
+    .item:hover img{
+        opacity: 0.33;
+    }
